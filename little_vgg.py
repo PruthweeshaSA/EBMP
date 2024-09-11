@@ -8,8 +8,8 @@ import os
 num_classes = 6
 img_rows,img_cols = 48,48
 batch_size = 16
-train_data_dir = 'C:/Users/patil/OneDrive/Desktop/Emotion Classification/fer2013/train'
-validation_data_dir = 'C:/Users/patil/OneDrive/Desktop/Emotion Classification/fer2013/validation'
+train_data_dir = "train_dir"
+validation_data_dir = "val_dir"
 
 train_datagen = ImageDataGenerator(
 					rescale=1./255,
